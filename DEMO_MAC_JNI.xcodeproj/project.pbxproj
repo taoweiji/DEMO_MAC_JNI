@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BCA76B81D2DF30A00D4E89F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA76B71D2DF30A00D4E89F /* main.cpp */; };
+		3BCA76C01D2DF62100D4E89F /* NativeDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCA76BF1D2DF62100D4E89F /* NativeDemo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3BCA76B41D2DF30A00D4E89F /* DEMO_MAC_JNI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DEMO_MAC_JNI; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCA76B71D2DF30A00D4E89F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3BCA76BE1D2DF5CF00D4E89F /* cn_taoweiji_nativemodule_NativeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cn_taoweiji_nativemodule_NativeDemo.h; sourceTree = "<group>"; };
+		3BCA76BF1D2DF62100D4E89F /* NativeDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NativeDemo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3BCA76B71D2DF30A00D4E89F /* main.cpp */,
+				3BCA76BE1D2DF5CF00D4E89F /* cn_taoweiji_nativemodule_NativeDemo.h */,
+				3BCA76BF1D2DF62100D4E89F /* NativeDemo.cpp */,
 			);
 			path = DEMO_MAC_JNI;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BCA76B81D2DF30A00D4E89F /* main.cpp in Sources */,
+				3BCA76C01D2DF62100D4E89F /* NativeDemo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +158,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = "";
+				FRAMEWORK_SEARCH_PATHS = /System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -197,6 +205,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_EXTENSION = "";
+				FRAMEWORK_SEARCH_PATHS = /System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
